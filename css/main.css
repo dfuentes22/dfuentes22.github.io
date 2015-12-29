@@ -1,0 +1,343 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800|Lato:400,100,300,700);
+@font-face {
+	font-family: 'PhantomRegular';
+	src: url('../fonts/phantom/phantom-regular.otf');
+}
+
+/**  Basic Page CSS **/
+body{
+    background-color: #F5F5F5;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-size: 2em;
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "PhantomRegular", sans-serif;
+    font-weight: 100;
+    margin: 0;
+}
+
+
+/**  Header Navigation **/
+
+header .navbar {
+    top: 0;
+    right:0;
+    padding: 15px 0;
+    z-index: 0;
+}
+
+header .navbar-default {
+    background-image: none;
+    background-color: #fefefe;
+    border: none;
+    box-shadow: none;
+    margin: 0;
+}
+
+header .navbar-default .navbar-nav a {
+    font-weight: 700;
+    color: #aaaaaa;
+    background: transparent;
+    text-shadow: none;
+}
+
+header .navbar-default .navbar-nav a:hover {
+    color: #E15D5F;
+}
+
+header .navbar-default .navbar-nav .active a {
+    font-weight: 700;
+    color: #729f98;
+    background: transparent;
+    text-shadow: none;
+}
+
+header .navbar-default .navbar-nav .active a:hover {
+    color: #E15D5F;
+    background: transparent;
+    text-shadow: none;
+}
+
+header .navbar-default .navbar-nav .active a:focus {
+    color: #E15D5F;
+    background: transparent;
+    text-shadow: none;
+}
+
+
+header .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .active > a {
+    box-shadow: none;
+}
+
+/**  Navbar Toggle **/
+
+header .navbar-default .navbar-toggle {
+    background-color: #de275c;
+    border-color: #DE275C;
+}
+
+header .navbar-default .navbar-toggle:hover {
+    background-color: #de275c;
+    border-color: #DE275C;
+}
+
+header .navbar-default .navbar-toggle:focus {
+    background-color: #de275c;
+}
+
+header .navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+header .navbar-collapse {
+  background-color: rgba(219,228,227, .5)
+}
+
+@media (min-width: 768px) {
+    header .navbar-collapse {
+        background-color: transparent;
+    }
+}
+
+
+/************ Loader Circle **************/
+#loader-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+}
+#loader {
+    display: block;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    width: 100px;
+    height: 100px;
+    margin: -75px 0 0 -75px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #999999;
+    -webkit-animation: spin 2s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
+    animation: spin 2s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
+    z-index: 1001;
+}
+ 
+#loader:before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #de275c;
+    -webkit-animation: spin 3s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
+      animation: spin 3s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
+}
+ 
+#loader:after {
+    content: "";
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #ffffff;
+    -webkit-animation: spin 1.5s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
+      animation: spin 1.5s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
+}
+ 
+@-webkit-keyframes spin {
+    0%   {
+        -webkit-transform: rotate(0deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: rotate(0deg);  /* IE 9 */
+        transform: rotate(0deg);  /* Firefox 16+, IE 10+, Opera */
+    }
+    100% {
+        -webkit-transform: rotate(360deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: rotate(360deg);  /* IE 9 */
+        transform: rotate(360deg);  /* Firefox 16+, IE 10+, Opera */
+    }
+}
+@keyframes spin {
+    0%   {
+        -webkit-transform: rotate(0deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: rotate(0deg);  /* IE 9 */
+        transform: rotate(0deg);  /* Firefox 16+, IE 10+, Opera */
+    }
+    100% {
+        -webkit-transform: rotate(360deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: rotate(360deg);  /* IE 9 */
+        transform: rotate(360deg);  /* Firefox 16+, IE 10+, Opera */
+    }
+}
+
+/************ Loader Sections **************/
+
+#loader-wrapper .loader-section {
+    position: fixed;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    background: #222222;
+    z-index: 1000;
+}
+ 
+#loader-wrapper .loader-section.section-left {
+    left: 0;
+}
+ 
+#loader-wrapper .loader-section.section-right {
+    right: 0;
+}
+
+/* Loaded */
+.loaded #loader-wrapper .loader-section.section-left {
+    -webkit-transform: translateX(-100%);  /* Chrome, Opera 15+, Safari 3.1+ */
+    -ms-transform: translateX(-100%);  /* IE 9 */
+    transform: translateX(-100%);  /* Firefox 16+, IE 10+, Opera */
+}
+ 
+.loaded #loader-wrapper .loader-section.section-right {
+    -webkit-transform: translateX(100%);  /* Chrome, Opera 15+, Safari 3.1+ */
+    -ms-transform: translateX(100%);  /* IE 9 */
+    transform: translateX(100%);  /* Firefox 16+, IE 10+, Opera */
+}
+
+.loaded #loader {
+    opacity: 0;
+    -webkit-transition: all 0.3s ease-out; 
+            transition: all 0.3s ease-out;
+}
+
+.loaded #loader-wrapper {
+    visibility: hidden;
+    -webkit-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+        transform: translateY(-100%);
+
+    -webkit-transition: all 0.3s 0.6s ease-out; 
+        transition: all 0.3s 0.6s ease-out;
+}
+
+.loaded #loader-wrapper .loader-section.section-right,
+.loaded #loader-wrapper .loader-section.section-left {
+ 
+    -webkit-transition: all 0.3s 0.3s ease-out; 
+            transition: all 0.3s 0.3s ease-out;
+}
+
+
+/************ Jumbotron **************/
+
+@keyframes animatedBackground {
+	from { background-position: 0 0; }
+	to { background-position: 10000px 0px; }
+}
+
+.jumbotron	{ 
+    /*background-image: url(../img/tex.jpg);*/
+    background-size: cover;
+    background-position: 0 0;
+    background-repeat: repeat-x;
+    background: -webkit-linear-gradient(#283018, #f5f5f5); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#283018, #f5f5f5); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#283018, #f5f5f5); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#729f98, #f5f5f5); /* Standard syntax */
+    /*animation: animatedBackground 180s linear infinite;*/
+    text-align: center;
+    min-height: 400px;
+        
+} 
+
+.jumbotron .container {
+    padding-top: 120px;   
+}
+
+@media (min-width: 480px){
+    .jumbotron {
+        min-height: 500px;
+
+    }
+    .jumbotron .container {
+        padding-top: 130px;   
+    }
+    .jumbotron h1 {
+        font-size: 63px;  
+    }
+
+}
+    
+.jumbotron h1 {
+    color: #283018;
+}
+
+.jumbotron .tags,h2 {
+    color: #ffffff;   
+}
+
+/************ Projects ***********/
+ul {
+    list-style-type: none;
+    padding-right: 30px;
+}
+
+.projects-title {
+    text-align: center;
+    margin: 10px auto;
+}
+
+.projects-title h1{
+    font-size: 1em;
+    padding-bottom: 5px;
+    color: #283018;
+    font-weight: 400;
+}
+
+.thumbnail {
+    background-color: #e8edf3;
+}
+
+.thumbnail .caption {
+    font-weight: 300;
+    color: #283018;
+}
+
+.work {
+    padding-top: 10px;   
+}
+
+
+/******* Box Shadow Outset ********/
+.hvr-box-shadow-outset {
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow;
+  transition-property: box-shadow;
+}
+.hvr-box-shadow-outset:hover, .hvr-box-shadow-outset:focus, .hvr-box-shadow-outset:active {
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+    opacity: 0.9;
+}
+
+/************ Footer ***********/
+
+footer p {
+    
+}
