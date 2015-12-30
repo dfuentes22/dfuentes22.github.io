@@ -2,7 +2,7 @@
 layout: post
 title:  "Blocitoff"
 description: A Tasklist Application
-image: jams.jpg
+image: jams.JPG
 categories: Bloc Apps
 ---
 
