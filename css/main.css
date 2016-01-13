@@ -256,7 +256,7 @@ header .navbar-collapse {
     background: linear-gradient(#729f98, #f5f5f5); /* Standard syntax */
     /*animation: animatedBackground 180s linear infinite;*/
     text-align: center;
-    min-height: 400px;
+    min-height: 300px;
     width:100%;
     padding: 0;
     border-radius: 0px;
@@ -269,7 +269,7 @@ header .navbar-collapse {
 
 @media (min-width: 480px){
     .jumbotron {
-        min-height: 500px;
+        min-height: 450px;
 
     }
     .jumbotron .container {
