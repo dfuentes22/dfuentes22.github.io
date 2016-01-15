@@ -351,6 +351,10 @@ ul {
     display: block;
     margin: 20px auto;
 }
+
+.preview p {
+    margin: 10px auto;
+}
 /************ Footer ***********/
 
 footer p {
