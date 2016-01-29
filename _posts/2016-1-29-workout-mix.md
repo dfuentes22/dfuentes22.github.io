@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Workout Mix"
-description: Keep a Fressh Workout Routine
+description: Keep a Fresh Workout Routine
 image: workout-mix.jpg
 categories: Bloc Apps
 ---
