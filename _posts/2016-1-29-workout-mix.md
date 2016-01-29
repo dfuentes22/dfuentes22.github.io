@@ -2,7 +2,7 @@
 layout: post
 title:  "Workout Mix"
 description: Keep a Fresh Workout Routine
-image: workout-mix-pin.jpg
+image: workout-mix.jpg
 categories: Bloc Apps
 ---
 
