@@ -18,7 +18,7 @@ title: Daniel Fuentes
         <!-- Example row of columns -->
         <div class="row work">
             <ul>
-                {% for post in site.posts %}
+                {% for post in site.posts limit:2 %}
                 <li>
                     <div class="col-sm-6 col-md-4">
                         <div class="thumbnail hvr-box-shadow-outset">
