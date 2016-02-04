@@ -12,6 +12,8 @@ The biggest challange I had building this application was making Angular work wi
 
 Blocitoff was built using HTML5, CSS3, AngularJS, and Firebase.
 
+View project <a href="http://blocitoff-dan.herokuapp.com/">here</a>.
+
 <div class="preview">
 <img src="../img/blocitoff-1.jpg">
 <img src="../img/blocitoff-2.jpg">
