@@ -373,7 +373,11 @@ ul {
 
 /************ Contact Form ***********/
 
-.contactform {
+.contact-wrapper {
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+.contactform-title{
     margin: 30px auto;
     width: 50%;
     text-align: center;
@@ -472,8 +476,18 @@ select{
 }
 
 /************ Footer ***********/
+footer {
+    margin-top: 30px;
+}
+footer .footer-col-2 {
+    text-align: center;
+}
 
-footer p {
-    
+footer .footer-col-2 li {
+    margin: 5px;
+    display: inline-block;
+}
+footer svg {
+    max-width: 32px;
 }
 

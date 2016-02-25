@@ -3,8 +3,9 @@ layout: page
 title: Contact
 permalink: /contact/
 ---
+<div class="contact-wrapper">
 
-<div class="contactform">
+<div class="contactform-title">
 Feel free to send me a message!
 </div>
 
@@ -28,3 +29,5 @@ Feel free to send me a message!
     </li>
 </ul>
 </form>
+
+</div>
