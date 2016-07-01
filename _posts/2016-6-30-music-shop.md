@@ -11,7 +11,7 @@ One of the main things i wanted to do was use a menu that could slide out of fra
 
 This prototype was built using HTML5, CSS3, and Bootstrap.
 
-View project <a href="#">No link yet</a>
+View project <a href="http://imdanielfuentes.com/mikes/">here</a>
 
 
 <div class="preview">
