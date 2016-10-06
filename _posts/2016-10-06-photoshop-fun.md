@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Photoshop Fun"
-description: Dan having fun with photoshop
+description: Having fun with Photoshop
 image: pslogo.PNG
 categories: photoshop
 ---
