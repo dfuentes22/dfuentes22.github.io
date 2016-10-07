@@ -11,14 +11,12 @@ Recently I started playing around with Photoshop, so I'll be posting a lot of im
 <br/>
 <br/>
 
-Sandboarding: Original
+
 
 <div class="preview">
-<img src="../img/desert.jpg">
+	Sandboarding: Original
+	<img src="../img/desert.jpg">
+	Sandboarding: Edited
+	<img src="../img/self.jpg">
 </div>
 
-Sandboarding: Edited
-
-<div class="preview">
-<img src="../img/self.jpg">
-</div>
