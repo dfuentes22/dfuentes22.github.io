@@ -14,9 +14,9 @@ Recently I started playing around with Photoshop, so I'll be posting a lot of im
 
 
 <div class="preview">
-	Sandboarding: Original
+	<p class="text-center">Sandboarding: Original</p>
 	<img src="../img/desert.jpg">
-	Sandboarding: Edited
+	<p class="text-center">Sandboarding: Edited</p>
 	<img src="../img/self.jpg">
 </div>
 
