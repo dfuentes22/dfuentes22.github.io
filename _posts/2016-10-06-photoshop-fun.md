@@ -7,3 +7,16 @@ categories: photoshop
 ---
 
 Recently I started playing around with Photoshop, so I'll be posting a lot of images that I create. :)
+
+<br/>
+<br/>
+
+
+
+<div class="preview">
+	<p class="text-center">Sandboarding: Original</p>
+	<img src="../img/desert.jpg">
+	<p class="text-center">Sandboarding: Edited</p>
+	<img src="../img/self.jpg">
+</div>
+
