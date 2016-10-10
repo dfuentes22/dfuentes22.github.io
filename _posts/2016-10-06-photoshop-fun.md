@@ -18,5 +18,7 @@ Recently I started playing around with Photoshop, so I'll be posting a lot of im
 	<img src="../img/desert.jpg">
 	<p class="text-center">Sandboarding: Edited</p>
 	<img src="../img/self.jpg">
+	<p class="text-center">Romantic Pic</p>
+	<img src="../img/couple.jpg">
 </div>
 
