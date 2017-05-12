@@ -12,6 +12,7 @@ View project <a href="#">here</a>
 
 
 <div class="preview">
-<p class="text-center">The Photoshop Design</p>
+<br>
+<br>
 <img src="../img/PSDDesignOne.jpg">
 </div>
