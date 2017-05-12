@@ -11,10 +11,7 @@ This is a project to take a Photoshop design and turn it into HTML and CSS.
 View project <a href="#">here</a>
 
 
-<!-- <div class="preview">
-<img src="../img/budgetbg.jpg">
-</div>
-
 <div class="preview">
-<img src="../img/budgetbg2.jpg">
-</div> -->
+<p class="text-center">The Photoshop Design</p>
+<img src="../img/PSDDesignOne.jpg">
+</div>
