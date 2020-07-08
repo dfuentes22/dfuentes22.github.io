@@ -1,39 +1,11 @@
----
-layout: default
-title: Daniel Fuentes | Web Developer
----
-
-<!-- Jumbotron -->      
-<div class="jumbotron">
-  <div class="container">
-      <h1>Daniel Fuentes</h1>
-    <h2>Web Developer</h2>
-  </div>
-</div>
-<!-- End of Jumbotron -->
-<div class="container">
-    <div class="row projects-title">
-            <h1>Some of My Latest Work</h1>
-    </div>
-    <!-- Example row of columns -->
-    <div class="row work">
-        <ul>
-            {% for post in site.posts limit:3 %}
-            <li>
-                <div class="col-sm-6 col-md-4">
-                    <div class="thumbnail hvr-box-shadow-outset">
-                            {% if post.image %}
-                            <a href="{{ post.url }}"><img src="../img/{{ post.image }}" alt="..."></a>
-                            {% endif %}
-                            <div class="caption">
-                                <a href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
-                                <p>{{ post.description }}</p>
-                            </div>
-                    </div>
-                </div>
-            </li>                            
-            {% endfor %}
-        </ul>
-    </div><!-- row work-->
-</div>
-<hr>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dan's Site</title>
+</head>
+<body>
+Dan's Site.
+</body>
+</html>
