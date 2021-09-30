@@ -1,24 +1,14 @@
 ---
-layout: default
-title: Daniel Fuentes | Web Developer
+layout: page
+title: Projects
+permalink: /projects/
 ---
 
-<!-- Jumbotron -->      
-<div class="jumbotron">
-  <div class="container">
-      <h1>Daniel Fuentes</h1>
-    <h2>Web Developer</h2>
-  </div>
-</div>
-<!-- End of Jumbotron -->
 <div class="container">
-    <div class="row projects-title">
-            <h1>Some of My Latest Work</h1>
-    </div>
     <!-- Example row of columns -->
     <div class="row work">
         <ul>
-            {% for post in site.posts limit:3 %}
+            {% for post in site.posts %}
             <li>
                 <div class="col-sm-6 col-md-4">
                     <div class="thumbnail hvr-box-shadow-outset">
@@ -36,4 +26,3 @@ title: Daniel Fuentes | Web Developer
         </ul>
     </div><!-- row work-->
 </div>
-<hr>
