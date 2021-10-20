@@ -10,7 +10,7 @@ Feel free to send me a message!
 </div>
 
 
-<form action="//formspree.io/imdanfuentes@gmail.com" method="POST">
+<form action="https://formspree.io/f/imdanfuentes@gmail.com" method="POST">
 <ul class="form-style-1">
     <li>
         <label>Full Name <span class="required">*</span></label>
